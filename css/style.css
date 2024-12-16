@@ -1,0 +1,148 @@
+:root{
+  --maincolor : #1e202b;
+}
+
+.navbar{
+  background-color: var(--maincolor);
+
+}
+.navbar a{
+  color: white;
+}
+.navImg img{
+  width: 65px;
+  height: 38px;
+}
+.navImg p {
+  font-size: 0.7142857143em;
+}
+.nav-link.active{
+
+
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+
+.nav-link:focus, .nav-link:hover  {
+  border-color: #009ad8 ;
+ 
+  color: #009ad8;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+.bgImg{
+  background-image: url(../img/imgapi1.png);
+  background-size: cover;
+  background-position: center;
+
+
+}
+.bgImg input[type = "text"]{
+  background-color: var(--maincolor);
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+
+}
+.bgImg input:focus{
+  border: none;
+  outline: none;
+}
+#submit{
+  border: none;
+    background: #009ad8;
+   
+    border-radius: 0px 4px 4px 0px ;
+    color: white;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 40px;
+}
+.formLoction{
+  margin: 70px 0px;
+}
+
+
+.item{
+  background-color: #323544;
+  color: white;
+ border: #1e202b solid 1px;
+
+  margin-top: 0px;
+  padding: 2px;
+
+}
+.detels{
+  background-color: var(--maincolor);
+  
+}
+
+header{
+  background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: #1e202b solid 1px;
+}
+.mego{
+  width: 50px;
+}
+.fonteSize{
+  font-size: 100px;
+  font-weight: 500;
+}
+
+footer{
+  background-color: #323544;
+  
+}
+footer input[type = "text"] {
+  background-color: white;
+ 
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+
+
+}
+footer input:focus{
+  border: none;
+  outline: none;
+}
+#subscribe{
+  border: none;
+  background: #009ad8;
+  border-radius: 0px 4px 4px 0px ;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 40px;
+}
+#selectObtion{
+  background-color: white;
+  border: none;
+}
+
+#selectObtionday{
+  background-color:white;
+  border: none;
+}
+footer i{
+  color: #009ad8;
+
+ 
+}
+
